@@ -86,9 +86,8 @@ Normalization of the result uses the Leading One Detector (LOD) method, which co
 A 55-bit Barrel Shifter is implemented to shift the generated "mantissa_result" by the count value obtained from the Leading One Detector. This digital circuit performs shifts by a specified number of bits using pure combinational logic, storing the final result in a buffer for pipeline processing.
 
 ### **Synthesis Results**
-Statistics obtained using YOSYS
+Statistics obtained using YOSYS for FP Adder (mkFPadd.v)
 
-=== mkFPadd ===
 
    	Number of wires:               4931
 
