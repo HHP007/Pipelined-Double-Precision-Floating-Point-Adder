@@ -1,7 +1,7 @@
 # Pipelined-Double-Precision-Floating-Point-Adder
 
 This repository contains the bluespec code for the pipelined double precision floating point adder, done as a part of the course CS6230 CAD For VLSI, IIT Madras.
-* Authors : HARIHARAN P (EE20B042)  AND  JAWHAR S (EE20B049)
+* Authors : [HARIHARAN P](https://github.com/HHP007) (EE20B042)  AND  [JAWHAR S](https://github.com/Jawhar-S) (EE20B049)
 * Date: 10 Dec 2023
 
 ### **Project Structure :**
