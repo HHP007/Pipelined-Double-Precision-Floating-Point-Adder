@@ -88,6 +88,9 @@ A 55-bit Barrel Shifter is implemented to shift the generated "mantissa_result" 
 ### **Synthesis Results**
 Statistics obtained using YOSYS for FP Adder (mkFPadd.v)
 
+Chip area for module '\mkFPadd': 48048.582400
+
+
 
    	Number of wires:               4931
 
