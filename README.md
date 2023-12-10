@@ -14,10 +14,12 @@ This repository contains the bluespec code for the pipelined double precision fl
 ### **How to run the code :**
 * Download the FPAdd_Pipelined.bsv file in the repository you wish and open the repository in the terminal.
 * Type the following commands:
-    * bsc -verilog FPAdd_Pipelined.bsv
-    * bsc -o sim -e mkTest mkTest.v
-    * ./sim
-    * ./sim +bscvcd
+
+     bsc -verilog FPAdd_Pipelined.bsv
+     bsc -o sim -e mkTest mkTest.v
+    ./sim
+    ./sim +bscvcd
+
 * The first command creates two verilog files : mkFPadd.v and mkTest.v
 * The second command creates the simulation file : sim
 * The third command prints the outputs vs clock time. Each 10 clock time corrosponds to 1 clock cycle as per the Bluespec compiler.
