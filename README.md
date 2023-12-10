@@ -30,7 +30,7 @@ This repository contains the bluespec code for the pipelined double precision fl
 * Giving equal hardware complexity in each stage helps in improving throughput of the adder.
 * We made sure that each stage as 1 calculation part and a buffer(shifting values through registers.)
 
-### **Verification methodalogy :**
+### **Verification methodology :**
 
 * The test bench has 9 sets of inputs comprising all types of possibilities and the output is printed for each clock cycle.
 * Since the first clock cycle is taken to give the inputs from testbench to the FP Adder, the final output of the 1st set of inputs is printed at 7th Clock cycle. 
