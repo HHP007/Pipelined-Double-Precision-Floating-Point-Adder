@@ -90,46 +90,46 @@ Statistics obtained using YOSYS
 
 === mkFPadd ===
 
-   Number of wires:               4931
+   	Number of wires:               4931
 
-   Number of wire bits:           7957
+   	Number of wire bits:           7957
 
-   Number of public wires:         111
+  	Number of public wires:         111
 
-   Number of public wire bits:    2278
+  	Number of public wire bits:    2278
 
-   Number of memories:               0
+ 	Number of memories:               0
 
-   Number of memory bits:            0
+ 	Number of memory bits:            0
 
-   Number of processes:              0
+  	Number of processes:              0
+	
+ 	Number of cells:               6193
 
-   Number of cells:               6193
+     	$_ANDNOT_                     982
 
-     $_ANDNOT_                     982
+     	$_AND_                         48
 
-     $_AND_                         48
+     	$_AOI3_                       136
 
-     $_AOI3_                       136
+     	$_AOI4_                         1
 
-     $_AOI4_                         1
+     	$_DFF_P_                      706
 
-     $_DFF_P_                      706
+     	$_MUX_                       1809
 
-     $_MUX_                       1809
+     	$_NAND_                       119
 
-     $_NAND_                       119
+     	$_NOR_                        266
 
-     $_NOR_                        266
+     	$_NOT_                        642
 
-     $_NOT_                        642
+     	$_OAI3_                        98
 
-     $_OAI3_                        98
+     	$_ORNOT_                      131
 
-     $_ORNOT_                      131
+     	$_OR_                         925
 
-     $_OR_                         925
+     	$_XNOR_                       112
 
-     $_XNOR_                       112
-
-     $_XOR_                        218
+     	$_XOR_                        218
