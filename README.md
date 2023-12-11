@@ -166,7 +166,7 @@ Statistics obtained using YOSYS for FP Adder (mkFPadd.v)
      		sky130_fd_sc_hd__or2b_2         8
      		sky130_fd_sc_hd__or3_2         50
      		sky130_fd_sc_hd__or3_4         11
-		sky130_fd_sc_hd__or3b_2        10
+       		sky130_fd_sc_hd__or3b_2        10
      		sky130_fd_sc_hd__or4_2         49
     		sky130_fd_sc_hd__or4_4         12
      		sky130_fd_sc_hd__or4b_2        33
