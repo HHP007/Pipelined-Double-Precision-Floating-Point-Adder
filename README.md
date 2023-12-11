@@ -81,7 +81,7 @@ These stages use multiple blocks to add sections of the mantissa successively. T
 
 **Overflow and Normalization Design - Stage Five** 
 
-The final stage contains overflow and normalization blocks. This stage determines overflow based on the 53rd bit of "mantissa_temp" and calculates the number of shifts required to normalize the obtained "mantissa_result." The output of this stage yields the final floating-point addition/subtraction result.
+The final stage contains overflow and normalization blocks. This stage determines overflow based on the 53rd bit of "mantissa_temp" and calculates the number of shifts required to normalize the obtained "mantissa_result." The output of this stage yields the final floating-point addition result.
 
 Normalization of the result uses the Leading One Detector (LOD) method, which counts preceding ones in the "mantissa_temp_1" result. The value is left-shifted to achieve the final normalized result, but its operation awaits the completion of the result computation.
 
