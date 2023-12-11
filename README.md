@@ -90,50 +90,89 @@ A 55-bit Barrel Shifter is implemented to shift the generated "mantissa_result" 
 ### **Synthesis Results**
 Statistics obtained using YOSYS for FP Adder (mkFPadd.v)
 
-Chip area for module '\mkFPadd': 48048.582400
 
+   		Number of wires:               4565
+   		Number of wire bits:           4754
+   		Number of public wires:         645
+   		Number of public wire bits:     834
+   		Number of memories:               0
+   		Number of memory bits:            0
+   		Number of processes:              0
+   		Number of cells:               4621
+     		sky130_fd_sc_hd__a2111oi_2      1
+     		sky130_fd_sc_hd__a211o_2       64
+     		sky130_fd_sc_hd__a211oi_2       4
+     		sky130_fd_sc_hd__a21bo_2       15
+     		sky130_fd_sc_hd__a21boi_2      11
+     		sky130_fd_sc_hd__a21o_2       155
+     		sky130_fd_sc_hd__a21oi_2       74
+     		sky130_fd_sc_hd__a221o_2       12
+     		sky130_fd_sc_hd__a221oi_2       1
+     		sky130_fd_sc_hd__a22o_2        53
+     		sky130_fd_sc_hd__a22oi_2       24
+     		sky130_fd_sc_hd__a2bb2o_2       2
+     		sky130_fd_sc_hd__a31o_2        32
+     		sky130_fd_sc_hd__a31oi_2        2
+     		sky130_fd_sc_hd__a32o_2        10
+     		sky130_fd_sc_hd__a32oi_2        1
+     		sky130_fd_sc_hd__and2_2       254
+     		sky130_fd_sc_hd__and2_4         2
+     		sky130_fd_sc_hd__and2b_2        5
+     		sky130_fd_sc_hd__and3_2        56
+     		sky130_fd_sc_hd__and3b_2        5
+     		sky130_fd_sc_hd__and4_2         7
+     		sky130_fd_sc_hd__and4b_2        1
+     		sky130_fd_sc_hd__and4bb_2       1
+     		sky130_fd_sc_hd__buf_1        519
+     		sky130_fd_sc_hd__buf_2          2
+     		sky130_fd_sc_hd__conb_1         3
+     		sky130_fd_sc_hd__dfxtp_2      698
+     		sky130_fd_sc_hd__inv_2         32
+     		sky130_fd_sc_hd__mux2_1        69
+     		sky130_fd_sc_hd__mux2_2       294
+     		sky130_fd_sc_hd__mux4_2        45
+     		sky130_fd_sc_hd__nand2_2      195
+     		sky130_fd_sc_hd__nand2b_2      10
+     		sky130_fd_sc_hd__nand3_2        6
+     		sky130_fd_sc_hd__nand3b_2       2
+     		sky130_fd_sc_hd__nand4_2        3
+     		sky130_fd_sc_hd__nand4b_2       1
+     		sky130_fd_sc_hd__nor2_2       182
+     		sky130_fd_sc_hd__nor2b_2        4
+     		sky130_fd_sc_hd__nor3_2         8
+     		sky130_fd_sc_hd__nor3b_2        1
+     		sky130_fd_sc_hd__nor4_2         1
+     		sky130_fd_sc_hd__o2111a_2       3
+     		sky130_fd_sc_hd__o2111ai_2      1
+     		sky130_fd_sc_hd__o211a_2      499
+     		sky130_fd_sc_hd__o211ai_2       2
+     		sky130_fd_sc_hd__o21a_2       112
+     		sky130_fd_sc_hd__o21ai_2       63
+     		sky130_fd_sc_hd__o21ba_2       38
+     		sky130_fd_sc_hd__o21bai_2       3
+     		sky130_fd_sc_hd__o221a_2      128
+     		sky130_fd_sc_hd__o221a_4        1
+     		sky130_fd_sc_hd__o221ai_2       4
+     		sky130_fd_sc_hd__o22a_2         7
+     		sky130_fd_sc_hd__o22ai_2        1
+     		sky130_fd_sc_hd__o2bb2a_2       3
+     		sky130_fd_sc_hd__o311a_2       11
+     		sky130_fd_sc_hd__o31a_2        33
+     		sky130_fd_sc_hd__o31ai_2        9
+     		sky130_fd_sc_hd__o32a_2        19
+     		sky130_fd_sc_hd__o41a_2         3
+     		sky130_fd_sc_hd__or2_2        502
+     		sky130_fd_sc_hd__or2_4         11
+     		sky130_fd_sc_hd__or2b_2         8
+     		sky130_fd_sc_hd__or3_2         50
+     		sky130_fd_sc_hd__or3_4         11
+		sky130_fd_sc_hd__or3b_2        10
+     		sky130_fd_sc_hd__or4_2         49
+    		sky130_fd_sc_hd__or4_4         12
+     		sky130_fd_sc_hd__or4b_2        33
+     		sky130_fd_sc_hd__or4b_4         3
+     		sky130_fd_sc_hd__or4bb_2        1
+     		sky130_fd_sc_hd__xnor2_2       81
+     		sky130_fd_sc_hd__xor2_2        43
 
-
-   	Number of wires:               4931
-
-   	Number of wire bits:           7957
-
-  	Number of public wires:         111
-
-  	Number of public wire bits:    2278
-
- 	Number of memories:               0
-
- 	Number of memory bits:            0
-
-  	Number of processes:              0
-	
- 	Number of cells:               6193
-
-     	$_ANDNOT_                     982
-
-     	$_AND_                         48
-
-     	$_AOI3_                       136
-
-     	$_AOI4_                         1
-
-     	$_DFF_P_                      706
-
-     	$_MUX_                       1809
-
-     	$_NAND_                       119
-
-     	$_NOR_                        266
-
-     	$_NOT_                        642
-
-     	$_OAI3_                        98
-
-     	$_ORNOT_                      131
-
-     	$_OR_                         925
-
-     	$_XNOR_                       112
-
-     	$_XOR_                        218
+   	Chip area for module '\mkFPadd': 48048.582400
