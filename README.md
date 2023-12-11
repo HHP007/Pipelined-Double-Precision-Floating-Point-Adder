@@ -72,9 +72,11 @@ In this stage, if B has a smaller amplitude number, the mantissa bits of input B
 
 **Mantissa Design - Stage One to Four** 
 
-Stages one to four perform the addition or subtraction of the mantissa bits (55-bit). Each stage, depicted in Figure 4.2, consists of seven blocks. The operation of these blocks depends on the "operation" value. Logic low ('0') triggers addition in each block, while logic high ('1') triggers subtraction.
+Stages one to four perform the addition of the mantissa bits (55-bit).
 
-These stages use multiple blocks to add or subtract sections of the mantissa successively. The results from each block are stored temporarily and concatenated to form the final "mantissa_result" (55-bit).
+Stages 1-3 adds 16 bits each and the stage 4 adds 7 bits.
+
+These stages use multiple blocks to add sections of the mantissa successively. The results from each block are stored temporarily and concatenated to form the final "mantissa_result" (55-bit).
 
 
 **Overflow and Normalization Design - Stage Five** 
